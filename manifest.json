@@ -1,0 +1,23 @@
+{
+  "name": "frustration.me",
+  "description" : "普段からあれほしいし、あれいらない、あれもってる！そんな物欲をまとめて管理して、さらにみんなで共有してしまおうというサービスです。(chromeアプリはまだα版です！！)",
+  "version": "0.0.1",
+  "icons": {
+    "24": "24.png",
+    "128": "128.png"
+  },
+  "app" : {
+    "urls" : [
+      "http://frustration.me/"
+    ],
+    "container" : "tab",
+    "launch" : {
+      "web_url" : "http://frustration.me/"
+    }
+  },
+  "permissions" : [
+    "notifications", 
+    "unlimited_storage",
+    "background"
+  ]
+}
